@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C6_GettersAndSetters", "C6_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C7_GettersAndSettersV2", "C7_GettersAndSettersV2\C7_GettersAndSettersV2.csproj", "{C3C9D166-9F58-4EB5-A5BF-66C5334D1C1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C8_Arrays", "C8_Arrays\C8_Arrays.csproj", "{09D309A6-C838-49CF-B7DE-C341282C3E6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{C3C9D166-9F58-4EB5-A5BF-66C5334D1C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3C9D166-9F58-4EB5-A5BF-66C5334D1C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3C9D166-9F58-4EB5-A5BF-66C5334D1C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09D309A6-C838-49CF-B7DE-C341282C3E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D309A6-C838-49CF-B7DE-C341282C3E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D309A6-C838-49CF-B7DE-C341282C3E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D309A6-C838-49CF-B7DE-C341282C3E6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
