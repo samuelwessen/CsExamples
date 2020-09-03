@@ -21,7 +21,6 @@ namespace Glazecalc.models
         public void Window()
         {
             Console.WriteLine("Please write your windows measures in m ");
-            Console.WriteLine("-----------------------------------------");
             Console.WriteLine("Please write your windows width in m ");
 
             try
@@ -46,7 +45,7 @@ namespace Glazecalc.models
             }
             finally
             {
-                
+                Console.WriteLine("Thank you.");
                 
             }
             Console.WriteLine("Now please write your windows height in m");
@@ -70,14 +69,13 @@ namespace Glazecalc.models
             }
             finally
             {
-                
+                Console.WriteLine("Thank you.");
             }
                         
 
             
             Console.WriteLine($"The area of the glass is {Glass()} m");
             Console.WriteLine($"The the lenght of the wood is {Wood()} square metres");
-            Console.WriteLine("------------------------------------------------------");
         }
     }
 

@@ -7,7 +7,7 @@ namespace C9_Lists
     {
         static void Main(string[] args)
         {
-            bool _hasSublings;
+            bool _hasSiblings;
 
             Console.Write("Do you have any siblings (yes/no) ");
             var _siblingResponse = Console.ReadLine();
@@ -15,19 +15,19 @@ namespace C9_Lists
             switch(_siblingResponse.ToLower())
             {
                 case "yes":
-                    _hasSublings = true;
+                    _hasSiblings = true;
                     break;
 
                 case "no":
-                    _hasSublings = false;
+                    _hasSiblings = false;
                     break;                
 
                 default:
-                    _hasSublings = false;
+                    _hasSiblings = false;
                     break;
 
             }
-            if (!_hasSublings)
+            if (!_hasSiblings)
                 Console.Write("Okay, that`s cool man.");
             else
             {
