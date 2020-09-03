@@ -8,8 +8,26 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid> 
+    <Grid Margin=" 20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Margin="10 30" FontSize="36" HorizontalAlignment="Center" Text="Async-Await Demo App"/>
+        <Button x:Name="SyncButton" Grid.Row="1" Margin="5" Padding="10" HorizontalAlignment="Stretch" FontSize="22" Content="Run Example Sync" Click="SyncButton_Click" />
+        <Button x:Name="ASyncButton" Grid.Row="2" Margin="5" Padding="10" HorizontalAlignment="Stretch" FontSize="22" Content="Run Example Sync" Click="ASyncButton_Click" />
+        <TextBlock x:Name="ExecutionResult" Grid.Row="3" Margin="10"/>
+        <StackPanel Grid.Row="4" Orientation="Horizontal" Margin="10">
+            <TextBlock Text="Execution Time" Margin="0 0 40 0" FontSize="18" />
+            <TextBlock x:Name="TimeResult" FontSize="18" />
+        </StackPanel>
+         
         
+
 
     </Grid>
 </Page>
