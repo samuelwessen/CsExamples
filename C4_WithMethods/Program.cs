@@ -12,6 +12,7 @@ namespace C4_WithMethods
             person.AskForName();
             person.AskForAge();            
             person.AskForCity();
+            
         }
     }
 }
