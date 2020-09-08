@@ -6,7 +6,7 @@ namespace C1_WriteLine
     {
         static void Main(string[] args)
         {
-            string name = "Samuell";
+            string name = "Samuel";
             int age = 34;
             var city = "Örebro";
 
