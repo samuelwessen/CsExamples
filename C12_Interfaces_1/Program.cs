@@ -10,6 +10,8 @@ namespace C12_Interfaces_1
         {
             var cnc = new CNC();
             cnc.Start();
+            var bandsaw = new BandSaw();
+            bandsaw.Stop();
 
             Console.WriteLine("Hello World!");
         }

@@ -7,6 +7,7 @@ namespace C3_WithAClass
         static void Main(string[] args)
         {
             var person = new Person();
+            
 
             Console.Write("Welcome Dude! What´s your name? ");
             person.Name = Console.ReadLine();
