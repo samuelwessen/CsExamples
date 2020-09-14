@@ -6,20 +6,9 @@
              xmlns:local="clr-namespace:WPF2_DesignView.Views"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="0.7*" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
+    <Grid Background="#FF0068FF">
+        
 
-        <StackPanel Grid.Column="0">
-            <Button Content="Knapp 1" />
-            <Button Content="Knapp 2" />
-            <Button Content="Knapp 3" />
-            <Button Content="Knapp 4" />
-        </StackPanel>
-
-        <TextBlock Grid.Column="1" Margin="20" Text="information visas här..." />
 
     </Grid>
 </UserControl>

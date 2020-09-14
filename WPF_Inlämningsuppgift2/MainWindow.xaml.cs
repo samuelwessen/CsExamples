@@ -36,5 +36,20 @@ namespace WPF2_DesignView
         {
             DataContext = new MessageModel();
         }
+
+        private void btnCalender_Click(object sender, RoutedEventArgs e)
+        {
+            DataContext = new CalenderModel();
+        }
+
+        private void btnTasks_Click(object sender, RoutedEventArgs e)
+        {
+            DataContext = new TasksModel();
+        }
+
+        private void btnSettings_Click(object sender, RoutedEventArgs e)
+        {
+            DataContext = new SettingsModel();
+        }
     }
 }
