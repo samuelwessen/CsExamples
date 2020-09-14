@@ -6,4 +6,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="profilbild.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="profilbild.jpg" />
+  </ItemGroup>
+
 </Project>

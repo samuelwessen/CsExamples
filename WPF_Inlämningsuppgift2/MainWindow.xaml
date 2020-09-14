@@ -94,7 +94,11 @@
                     </StackPanel>
                 </Button>
             </StackPanel>
-            <Ellipse x:Name="ProfilePicture" HorizontalAlignment="Center" Height="100" Margin="0,58,0,0" Stroke="#FF225ED6" VerticalAlignment="Top" Width="100" Fill="#FF225ED6"/>
+            <Ellipse x:Name="ProfilePicture" HorizontalAlignment="Center" Height="100" Margin="0,58,0,0" VerticalAlignment="Top" Width="100">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/profilbild.jpg" Stretch="Fill"/>
+                </Ellipse.Fill>
+            </Ellipse>
             <TextBlock x:Name="ProfileName" HorizontalAlignment="Center" Height="15" Margin="0,176,0,0" Text="Samuel Wessén" TextWrapping="Wrap" VerticalAlignment="Top" Width="124" Foreground="White"/>
         </Grid>
 
